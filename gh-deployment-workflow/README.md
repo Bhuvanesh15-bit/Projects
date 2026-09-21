@@ -11,6 +11,6 @@ This project demonstrates continuous deployment with GitHub Actions and GitHub P
 3. In the repository settings, open **Pages** and set the source to **GitHub Actions** if GitHub has not enabled it automatically.
 4. After a successful workflow run, visit
 
-'https://github.com/Bhuvanesh15-bit/Projects/edit/main/gh-deployment-workflow'
+'https://github.com/Bhuvanesh15-bit/Projects/main/gh-deployment-workflow'
 
 Changes to files other than `index.html` do not trigger the deployment workflow.
