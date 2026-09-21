@@ -12,3 +12,5 @@ This project demonstrates continuous deployment with GitHub Actions and GitHub P
    `https://<username>.github.io/gh-deployment-workflow/`
 
 Changes to files other than `index.html` do not trigger the deployment workflow.
+
+https://roadmap.sh/projects/github-actions-deployment-workflow
