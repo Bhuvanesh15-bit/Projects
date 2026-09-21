@@ -133,3 +133,5 @@ Ensure your own IP address is allowlisted before enabling aggressive bans, and k
 - The server firewall allows SSH only from trusted addresses where practical.
 - Both key-based login commands and both SSH aliases have been tested.
 - The provider, server IP, and username are recorded privately rather than exposed in this repository.
+
+https://roadmap.sh/projects/ssh-remote-server-setup
