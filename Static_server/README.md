@@ -76,7 +76,7 @@ sudo systemctl restart ssh
 
 ## 5. Install and configure Nginx
 
-From this repository, set the connection variables in your shell. Git Bash, WSL, or another Bash shell is recommended on Windows:
+Run the following commands on your local computer, from the repository directory. Do not run these scripts inside the SSH session on the server: the scripts use your local private key to connect to the server. Git Bash, WSL, or another Bash shell is recommended on Windows:
 
 ```bash
 export SERVER_USER=ubuntu
@@ -84,7 +84,7 @@ export SERVER_HOST=SERVER_IP
 export SSH_KEY="$HOME/.ssh/remote-server-key-1"
 ```
 
-Install Nginx and configure it to serve this project's web root:
+Install Nginx and configure it to serve this project's web root from your local computer:
 
 ```bash
 bash ./scripts/configure-nginx.sh
