@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A tiny static site deployed with Nginx and rsync.">
+  <title>Northstar | Static deployment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Northstar home"><span class="brand-mark">N</span> NORTHSTAR</a>
+      <span class="status"><span class="status-dot"></span> server online</span>
+    </header>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">STATIC SITE / NGINX / RSYNC</p>
+        <h1>Ship the small things<br><em>with confidence.</em></h1>
+        <p class="intro">A deliberately simple web server project: plain files, a focused Nginx config, and one repeatable deployment command.</p>
+        <a class="button" href="/healthz">Check server health <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-art">
+        <img src="assets/server-rack.svg" alt="Illustration of a lit server rack">
+      </div>
+    </section>
+
+    <section class="facts" aria-label="Project details">
+      <article><span class="number">01</span><h2>Build locally</h2><p>HTML, CSS, and images live in one portable site directory.</p></article>
+      <article><span class="number">02</span><h2>Serve simply</h2><p>Nginx handles static files with a tiny, inspectable configuration.</p></article>
+      <article><span class="number">03</span><h2>Deploy cleanly</h2><p>Rsync transfers only what changed and removes stale files.</p></article>
+    </section>
+
+    <footer>Built for learning, deployed over SSH.</footer>
+  </main>
+</body>
+</html>
